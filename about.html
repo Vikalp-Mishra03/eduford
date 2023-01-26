@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Vampire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleleapis.com/css3?family=poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- ---------------------about us content---------------------- -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest University </h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit maiores accusamus ullam nesciunt
+                    dolorem quisquam voluptate minima. Aspernatur deleniti quas dolore magnam cumque velit quae nam odit
+                    reprehenderit incidunt, nobis ut expedita officia laborum et itaque veniam tempora! Sint similique
+                    excepturi corporis, distinctio fuga accusantium rerum eaque itaque nulla cupiditate asperiores nobis
+                    ullam minima quia!</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="eduford_img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- ---------footer----------------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sapiente ipsa, quae iste, maiores rerum
+            voluptate reiciendis <br> qui laudantium tempora neque eveniet dolore repellendus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Vampire</p>
+    </section>
+</body>
+
+<!-- --------------javasript for toggle menu------------------------- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showmenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>
