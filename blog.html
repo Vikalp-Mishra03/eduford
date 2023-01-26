@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Vampire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleleapis.com/css3?family=poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Cerficate & Online Programs For 2023</h1>
+    </section>
+    <!-- -----------------blog page content---------------------- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="eduford_img/certificate.jpg">
+                <h2>Our Cerficate & Online Programs For 2023</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eaque quia, earum placeat officiis
+                    nulla, natus inventore commodi quibusdam quis deleniti eveniet, incidunt pariatur ratione. Fugit ad
+                    quibusdam a nostrum quia iste aspernatur fugiat? Repudiandae explicabo ipsam incidunt praesentium
+                    sed distinctio, ullam consequuntur adipisci tenetur, ut maxime nemo beatae a.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi fuga et, sed, accusantium ipsa
+                    dolores ratione soluta voluptate quisquam dolore vel, nostrum nobis! Porro cupiditate consequatur
+                    facilis natus repudiandae enim, voluptatibus quas assumenda? Facere, deserunt nisi. Sapiente
+                    adipisci, iste incidunt facere ullam praesentium molestiae explicabo deserunt eveniet dolor
+                    laudantium aperiam.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam fuga cupiditate ullam quae nemo,
+                    distinctio dolore, necessitatibus nisi cumque autem veniam. Iusto officiis, perspiciatis repellat
+                    corrupti aliquam tenetur maxime odio porro aliquid voluptatibus quasi, nobis sint exercitationem
+                    nam, hic magni recusandae eveniet distinctio quia molestiae beatae sed voluptatum totam vel. Lorem
+                    ipsum dolor sit, amet consectetur adipisicing elit. Eum rerum accusantium modi, magnam ab ullam
+                    numquam. Dolorem ipsum repellendus consequuntur veritatis, sunt iusto aut, quibusdam saepe nemo iure
+                    magnam fugiat.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quaerat quam beatae excepturi cumque
+                    amet, voluptas temporibus debitis repudiandae, nisi fugiat eum nemo praesentium odio doloribus sunt
+                    facilis culpa ullam, nostrum possimus tempore nam enim ipsam? Unde debitis, provident dicta sapiente
+                    laboriosam quasi dolor tenetur. Odio magnam accusantium fugit veniam amet beatae dignissimos,
+                    tempore sit. Blanditiis, quisquam non. Praesentium aut error temporibus rerum magnam a optio
+                    inventore sint vitae ut.
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter E-mail">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------footer----------------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sapiente ipsa, quae iste, maiores rerum
+            voluptate reiciendis <br> qui laudantium tempora neque eveniet dolore repellendus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Vampire</p>
+    </section>
+</body>
+
+<!-- --------------javasript for toggle menu------------------------- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showmenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>
